@@ -1,0 +1,26 @@
+﻿FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER $APP_UID
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["src/CleanDocker.Api/CleanDocker.Api.csproj", "src/CleanDocker.Api/"]
+COPY ["src/CleanDocker.Infrastructure/CleanDocker.Infrastructure.csproj", "src/CleanDocker.Infrastructure/"]
+COPY ["src/CleanDocker.Domain/CleanDocker.Domain.csproj", "src/CleanDocker.Domain/"]
+COPY ["src/CleanDocker.Application/CleanDocker.Application.csproj", "src/CleanDocker.Application/"]
+RUN dotnet restore "src/CleanDocker.Api/CleanDocker.Api.csproj"
+COPY . .
+WORKDIR "/src/src/CleanDocker.Api"
+RUN dotnet build "CleanDocker.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "CleanDocker.Api.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "CleanDocker.Api.dll"]

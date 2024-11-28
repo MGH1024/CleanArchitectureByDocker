@@ -1,0 +1,19 @@
+services:
+  api:
+    image: clean:v1
+    build:
+      context: .
+      dockerfile: CleanDockerApi
+    ports:
+       - "2380:8080" # Expose port 80 in the container as port 8080 on the host
+    environment:
+      - Logging__LogLevel__Default=Information
+      - Logging__LogLevel__Microsoft.AspNetCore=Warning
+      - AllowedHosts=*
+      - ConnectionStrings__DefaultConnection=Data Source=192.168.1.4;Initial Catalog=dbProduct;User ID=sa; Password=Abcd@1234;Integrated Security=false;MultipleActiveResultSets=true;TrustServerCertificate=True
+    networks:
+      - localnetwork
+
+networks:
+  localnetwork:
+    driver: bridge

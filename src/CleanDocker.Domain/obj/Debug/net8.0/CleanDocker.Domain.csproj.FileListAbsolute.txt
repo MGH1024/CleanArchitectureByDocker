@@ -1,0 +1,11 @@
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\bin\Debug\net8.0\CleanDocker.Domain.deps.json
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\bin\Debug\net8.0\CleanDocker.Domain.dll
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\bin\Debug\net8.0\CleanDocker.Domain.pdb
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\obj\Debug\net8.0\CleanDocker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\obj\Debug\net8.0\CleanDocker.Domain.AssemblyInfoInputs.cache
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\obj\Debug\net8.0\CleanDocker.Domain.AssemblyInfo.cs
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\obj\Debug\net8.0\CleanDocker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\obj\Debug\net8.0\CleanDocker.Domain.dll
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\obj\Debug\net8.0\refint\CleanDocker.Domain.dll
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\obj\Debug\net8.0\CleanDocker.Domain.pdb
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Domain\obj\Debug\net8.0\ref\CleanDocker.Domain.dll

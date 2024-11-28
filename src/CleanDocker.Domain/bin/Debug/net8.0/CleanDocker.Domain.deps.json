@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CleanDocker.Domain/1.0.0": {
+        "runtime": {
+          "CleanDocker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanDocker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

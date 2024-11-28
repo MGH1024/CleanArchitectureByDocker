@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VZU7Fy0wikZWYHj+hkkCKuGeNEMnISM0eVTaPfKbtnI=",
+  "Source": "CleanDocker.Api",
+  "BasePath": "_content/CleanDocker.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

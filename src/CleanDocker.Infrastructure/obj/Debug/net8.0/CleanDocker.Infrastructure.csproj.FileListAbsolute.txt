@@ -1,0 +1,17 @@
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\bin\Debug\net8.0\CleanDocker.Infrastructure.deps.json
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\bin\Debug\net8.0\CleanDocker.Infrastructure.runtimeconfig.json
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\bin\Debug\net8.0\CleanDocker.Infrastructure.dll
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\bin\Debug\net8.0\CleanDocker.Infrastructure.pdb
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\bin\Debug\net8.0\CleanDocker.Domain.dll
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\bin\Debug\net8.0\CleanDocker.Domain.pdb
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDocker.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDocker.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDocker.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDocker.Infrastructure.AssemblyInfo.cs
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDocker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDoc.4F60EA19.Up2Date
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDocker.Infrastructure.dll
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\refint\CleanDocker.Infrastructure.dll
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDocker.Infrastructure.pdb
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\CleanDocker.Infrastructure.genruntimeconfig.cache
+C:\Users\m\RiderProjects\CleanDocker\src\CleanDocker.Infrastructure\obj\Debug\net8.0\ref\CleanDocker.Infrastructure.dll
